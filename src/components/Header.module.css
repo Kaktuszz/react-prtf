@@ -5,11 +5,12 @@
     height: 50px;
     color: rgb(255, 240, 240);
     padding: 10px 80px;
-    display: flex; /* Change display property to flex */
-    justify-content: space-between; /* Add this property */
+    display: flex; 
+    justify-content: space-between; 
     position: sticky;
     top: 0;
     z-index: 100;
+    transition: 3s;
 }
 
 .test p {
@@ -21,8 +22,8 @@
     margin-top: 15px;
     padding: 0;
     list-style: none;
-    display: flex; /* Change display property to flex */
-    align-items: center; /* Add this property */
+    display: flex; 
+    align-items: center; 
 }
 
 .navs li {
@@ -48,12 +49,6 @@
     }
 }
 
-/* @media (max-width: 678px) {
-    .test{
-        grid-template-columns: 40% 60%;
-    }
-} */
-
 @media (max-width: 680px) {
     .test {
       grid-template-columns: 1fr;
@@ -62,20 +57,27 @@
     }
   
     .navs {
-      display: none;
+      /* display: none; */
       position: absolute;
       top: 100%;
       right: 0;
-      background-color: #35393b;
-      width: 100%;
+      background-color: #00000075;
+      width: 20%;
       padding: 0;
       margin-right: 0;
+      margin-top: 0px;
       text-align: right;
+      height: 0px;
+      transition: height ease 0.3s;
     }
   
     .navs li {
       display: block;
       padding: 10px 20px;
+    }
+
+    .navs ul {
+      margin-bottom: 500px;
     }
   
     .test::after {
@@ -89,8 +91,9 @@
       margin-right: 15px;
     }
   
-    .test.collapsed .navs {
+    .navs.collapsed{
       display: block;
+      height: 190px;
     }
   }
   
