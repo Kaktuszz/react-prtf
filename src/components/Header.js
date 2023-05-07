@@ -13,9 +13,9 @@ const Header = () => {
 
 
   return (
-      <div className={`${classes.test} ${collapse === true ? classes.collapsed : ""}`} onClick={collapseHandler}>
+      <div className={classes.test} onClick={collapseHandler}>
         <p>Bohdan Fedirko</p>
-        <nav className={classes.navs}>
+        <nav className={`${classes.navs} ${collapse === true ? `${classes.collapsed}` : ""}`} >
           <ul>
             <li><a  href="#" alt="Work">Work</a></li>
             <li><a  href="#" alt="Content">Content</a></li>
