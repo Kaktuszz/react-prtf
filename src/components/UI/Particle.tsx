@@ -27,7 +27,7 @@ const Particle = () => {
               value: "#ccfbfe",
             },
           },
-          fpsLimit: 144,
+          fpsLimit: 120,
           interactivity: {
             events: {
               onClick: {
@@ -58,7 +58,7 @@ const Particle = () => {
               color: "#72b1c5",
               distance: 200,
               enable: true,
-              opacity: 0.2,
+              opacity: 0.5,
               width: 1,
             },
             collisions: {
