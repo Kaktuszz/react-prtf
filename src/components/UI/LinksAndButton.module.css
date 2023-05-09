@@ -31,3 +31,21 @@
     margin-bottom: 3px;
     text-decoration: none;
 }
+
+
+@media (max-width: 599px) {
+    .linker.display{
+       width: 200px;
+    }
+}
+@media (max-width: 599px) {
+    .linker.display{
+       width: 200px;
+    }
+}
+
+@media (max-width: 430px) {
+    .linker.display{
+       width: 150px;
+    }
+}

@@ -61,6 +61,15 @@
       /* top: 0;
       z-index: 100; */
     }
+
+@media (max-width: 430px){
+  .test{
+    grid-template-columns: 10% 90%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+}
   
     .navs {
       /* display: none; */
