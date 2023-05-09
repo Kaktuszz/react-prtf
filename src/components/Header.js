@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import classes from "./Header.module.css";
+import "./Player.css";
 // import { Button } from "bootstrap";
 
 const Header = () => {

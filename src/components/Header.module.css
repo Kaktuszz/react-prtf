@@ -46,6 +46,9 @@
 @media (max-width: 932px) {
     .test{
         grid-template-columns: 30% 70%;
+        position: sticky;
+        top: 0;
+        z-index: 100;
     }
 }
 
@@ -53,7 +56,10 @@
     .test {
       grid-template-columns: 1fr;
       padding: 10px 20px;
-      position: relative;
+      /* position: relative; */
+      position: sticky;
+      /* top: 0;
+      z-index: 100; */
     }
   
     .navs {
@@ -83,12 +89,15 @@
     .test::after {
       content: '\2630';
       font-size: 24px;
-      position: absolute;
       top: 50%;
       right: 0;
       transform: translateY(-50%);
       cursor: pointer;
       margin-right: 15px;
+      position: sticky;
+      padding-top: 10px;
+      /* top: 0;
+      z-index: 100; */
     }
   
     .navs.collapsed{

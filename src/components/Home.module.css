@@ -1,20 +1,21 @@
 .container{
-    background-color: #ccfbfe;
+    background-color: transparent;
     height: 957px;
     width: 100%;
     align-items: center;    
     padding: 15% 0;
     text-align: center;
+
 }
 
-.container div{
+.textcont{
     margin: auto;
     width: 25%;
     font-size: larger;
 }
 
 @media  (max-width: 1000px) {
-    .container div{
+    .textcont{
         margin: auto;
         width: 50%;
         font-size: larger;
