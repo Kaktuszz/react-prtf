@@ -14,7 +14,7 @@
     font-size: larger;
 }
 
-@media  (max-width: 1000px) {
+@media  (max-width: 1240px) {
     .textcont{
         margin: auto;
         width: 50%;
